@@ -32,7 +32,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} >Home</Route>
           <Route path='/blog' element={<Blogs blogs={blogs} />}>Blog</Route>
-          <Route path='add-blog' element={<AddBlog  addblog={addblog}/>}>Add Blogs</Route>
+          <Route path='/add-blog' element={<AddBlog  addblog={addblog}/>}>Add Blogs</Route>
         </Routes>
         <Footer />
       </div>   
